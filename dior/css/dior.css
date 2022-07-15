@@ -430,14 +430,13 @@
    content: "";
    position: absolute;
    bottom: 0;
-   left: 50%;
-   transform: translateX(-50%);
-   /* a. display: block;*/
+   left: 0;
+
+
    width: 0;
    height: 3px;
    background-color: #000;
-   /*margin: 0 auto하면 왜 가운데서 늘어나는지
-  a. margin: 0 auto;*/
+
    transition: 0.5s;
  }
 
